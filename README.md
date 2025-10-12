@@ -1,4 +1,4 @@
-# Overview
+## Overview
 - This repo has concepts & reference codes to run training/inference on LLMs/VLMs. It shows how to:
     - Use Pytorch to define LLMs/VLMs & their components from scratch. 
         - Define models like GPT2 & Llama3.*.  
@@ -9,25 +9,25 @@
     - Use Huggingface library to train/finetune LLMs, run inference on them.
     - Use LLM/VLM APIs like ChatGPT
 
-# Key directories here
-- `pytorch_from_scratch_toy_model_code`:
+## Key directories here
+- `1_pytorch_from_scratch_toy_model_code`:
     - Toy neural network training using single & mutiple GPUs
-- `pytorch_from_scratch_notebooks`: 
+- `2_pytorch_from_scratch_notebooks`: 
     - Notebooks using Pytorch from scratch to define LLM components
-- `pytorch_from_scratch_llm_code`: 
+- `3_pytorch_from_scratch_llm_code`: 
     - Modular code to define & perform LLM pre-training, fine-tuning from scratch in Pytorch
     - Includes models like GPT2 & Llama3.*. 
-- `hf_api_notebooks`: 
+- `4_huggingface_api_notebooks`: 
     - Notebooks using Huggingface library or APIs to tasks like
         - Perform fine-tuning
         - Run inference
         - Use LLM/VLM APIs like ChatGPT, etc.
         - LLM as judge etc.
-- `pytorch_from_scratch_vlm_code`
+- `5_pytorch_from_scratch_vlm_code`
     - Example training / fine-tuning / inference on 
         - Small VLM - `nanoVLM`
         - Large VLM - `Aria`
-- `misc_notebooks`: 
+- `6_misc_notebooks`: 
     - Miscellaneous notebooks
 - `data`: 
     - Datasets are to be stored here. (Omitted large files to avoid git repo bloat)
